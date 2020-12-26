@@ -122,9 +122,21 @@ end
 
 <a id="vagrant-up"></a>
 # Vagrant up
+VM을 실행하기 위해 Vagrantfile이 있는 폴더로 이동해서 ```vagrant up``` 명령어를 실행한다.
+```bash
+$ vagrant up
+```
 
 <a id="vagrant-halt"></a>
 # Vagrant halt
+VM을 종료하기 위해 Vagrantfile이 있는 폴더로 이동해서 ```vagrant halt``` 명령어를 실행한다.
+```bash
+$ vagrant halt
+```
 
 <a id="vagrant-destroy"></a>
 # Vagrant destroy
+VM을 삭제하기 위해 Vagrantfile이 있는 폴더로 이동해서 ```vagrant destroy``` 명령어를 실행한다.
+```bash
+$ vagrant destroy
+```
